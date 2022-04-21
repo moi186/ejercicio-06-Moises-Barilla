@@ -1,0 +1,33 @@
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+}
+
+table {
+    background-color: #FFF406;
+    width: 60%;
+    border-color: #000;
+    border-style: dashed;
+}
+
+.th {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: dashed;
+}
+
+.td {
+    display: flex;
+    align-content: space-between;
+    border-left: dashed;
+}
+
+.texto {
+    color: #E6150B;
+}
